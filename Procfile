@@ -1,0 +1,1 @@
+web: gunicorn server_proxy_ga4:app --bind 0.0.0.0:$PORT
